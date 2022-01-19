@@ -16,11 +16,11 @@
 
     {{-- Main --}}
     <main>
-        @yield('main-content');
+        @yield('main-content')
     </main>
 
     {{-- Footer --}}
-    @include('partials.footer');
+    @include('partials.footer')
 
 </body>
 </html>

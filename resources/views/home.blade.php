@@ -5,7 +5,7 @@
         <div class="container">
             {{-- Comic Cards --}}
             <nav>
-                <ul class="d-flex flex-wrap">
+                <ul class="d-flex flex-wrap ps-0">
                         @foreach ($comics as $comic)
                     <li class="col-2 pb-5">
                         <img src="{{ $comic['thumb'] }}" class="pb-3" alt="{{ $comic['title'] }}">
@@ -23,4 +23,7 @@
         </div>
     </div>
 </section>
+<div class="empty-row p-2">
+
+</div>
 @endsection
