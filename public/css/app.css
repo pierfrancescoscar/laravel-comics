@@ -14,3 +14,25 @@
 .header-shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
+
+.dark-bg {
+  background-color: #1c1c1c;
+}
+
+.comic-li {
+  width: 16.6666666667%;
+}
+
+.comic-title {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.comic-button {
+  background-color: #0282f9;
+  color: white;
+  border: none;
+  font-weight: 600;
+}

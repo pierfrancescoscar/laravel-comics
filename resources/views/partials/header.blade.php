@@ -7,7 +7,6 @@
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('images/dc-logo.png') }}" class="dc-logo" alt="">
                     </a>
-
                     {{-- Navigation Menu --}}
                     <nav>
                         <ul class="d-flex mb-0">
@@ -19,7 +18,7 @@
                             <li class="list-unstyled">
                                 <a href="{{ route('news') }}" class="text-uppercase text-decoration-none dc-black">News</a>
                             </li>
-
+                            
                         </ul>
                     </nav>
                 </div>
