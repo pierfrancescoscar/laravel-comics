@@ -9,12 +9,12 @@
                     </button>
                 </div>
                 {{-- Social Media Buttons --}}
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-6 d-flex align-items-center justify-content-end">
                     <span class="text-uppercase follow-us pe-3">
                         Follow us
                     </span>
 
-                    <div class="">
+                    <div>
                         <img src="{{ asset('images/footer-facebook.png') }}" class="pe-2" alt="">
                         <img src="{{ asset('images/footer-twitter.png') }}" class="pe-2" alt="">
                         <img src="{{ asset('images/footer-youtube.png') }}" class="pe-2" alt="">
