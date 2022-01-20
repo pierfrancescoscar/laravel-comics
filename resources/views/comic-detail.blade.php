@@ -14,6 +14,12 @@
     <div class="container">
         <div class="comic-img-container">
             <img src="{{ $comic['thumb']}}" alt="">
+            <div class="sub-text">
+                View gallery
+            </div>
+            <div class="above-text">
+                Comic book
+            </div>
         </div>
     </div>
     {{-- Content --}}
