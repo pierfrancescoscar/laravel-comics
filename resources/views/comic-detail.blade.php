@@ -11,11 +11,11 @@
     <section class="container-fluid blue-row p-4">
     </section>
     {{-- Comic Image Card --}}
-    {{-- <div class="container">
+    <div class="container">
         <div class="comic-img-container">
             <img src="{{ $comic['thumb']}}" alt="">
         </div>
-    </div> --}}
+    </div>
     {{-- Content --}}
     <div class="container py-5">
         <div class="row">
