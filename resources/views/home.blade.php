@@ -8,7 +8,10 @@
                 <ul class="d-flex flex-wrap">
                         @foreach ($comics as $index => $comic)
                     <li class="col-2 pb-5">
-                            <img src="{{ $comic['thumb'] }}" class="pb-3" alt="{{ $comic['title'] }}">
+
+                            <div class="thumb-container">
+                                <img src="{{ $comic['thumb'] }}" class="pb-3" alt="{{ $comic['title'] }}">
+                            </div>
                             
                             <a href="{{ route('comic-detail', ['id' => $index])}}" class="comic-title">{{ $comic['series'] }}</a>
                     </li>

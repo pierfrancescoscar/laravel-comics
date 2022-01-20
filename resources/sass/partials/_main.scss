@@ -29,3 +29,17 @@
 .empty-row {
     background-color: #0282f9;
 }
+
+// Square comic thumbs
+
+.thumb-container {
+    width:150px;
+    height:150px;
+    
+    img{
+        object-fit: cover;
+        object-position: top;
+        width: 100%;
+        height:100%;
+    }
+}
