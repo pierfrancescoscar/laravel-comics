@@ -1,5 +1,15 @@
+// Jumbotron
 .detail-bg {
     background-image: url('/images/jumbotron.jpg');
     background-size: cover;
     height: 50vh;
+}
+// Blue row separator
+.blue-row {
+    background-color: #0282f9;
+}
+.comic-img-container {
+    position: absolute;
+    top: 200px;
+    border: 3px solid white;
 }
