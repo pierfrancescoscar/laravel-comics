@@ -55,3 +55,9 @@
   color: #0282f9;
   font-weight: 600;
 }
+
+.detail-bg {
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+  height: 50vh;
+}
