@@ -22,17 +22,23 @@
             {{-- Left Content --}}
             <div class="col-6">
                 {{-- Title --}}
-                <h3 class="text-uppercase">{{ $comic['title']}}</h3>
+                <h3 class="text-uppercase title-color ">{{ $comic['title']}}</h3>
                 {{-- Price --}}
-                <div class="price-and-availability d-flex">
+                <div class="d-flex py-2">
+                    <div class="col-8 price-and-availability d-flex align-items-center p-3">
 
-                    <span>U.S. Price: {{ $comic['price']}}</span>
-                    <span class="text-right">AVAILABLE</span>
-
+                        <span class="flex-grow-1 green-text"><span class="text-white fs-14">U.S. Price:</span> {{ $comic['price']}}</span>
+                        <span class="green-text fs-14">AVAILABLE</span>
+    
+                    </div>
+                    <div class="col-4 price-and-availability d-flex p-3 align-items-center justify-content-center">
+                        <span class="text-white fs-14 pe-2">Check Availability</span>
+                        <i class="fas fa-angle-down text-white"></i>
+                    </div>
                 </div>
                 {{-- Description --}}
                 <div class="description">
-                    <p>{{ $comic['description']}}</p>
+                    <p class="grey-text fs-14">{{ $comic['description']}}</p>
                 </div>
             </div>
 
