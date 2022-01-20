@@ -5,11 +5,12 @@
         <div class="container">
             {{-- Comic Cards --}}
             <nav>
-                <ul class="d-flex flex-wrap ps-0">
-                        @foreach ($comics as $comic)
+                <ul class="d-flex flex-wrap">
+                        @foreach ($comics as $index => $comic)
                     <li class="col-2 pb-5">
-                        <img src="{{ $comic['thumb'] }}" class="pb-3" alt="{{ $comic['title'] }}">
-                        <a href="/" class="comic-title">{{ $comic['series'] }}</a>
+                            <img src="{{ $comic['thumb'] }}" class="pb-3" alt="{{ $comic['title'] }}">
+                            
+                            <a href="{{ route('comic-detail', ['id' => $index])}}" class="comic-title">{{ $comic['series'] }}</a>
                     </li>
                         @endforeach
                 </ul>
