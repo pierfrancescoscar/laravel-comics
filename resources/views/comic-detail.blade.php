@@ -18,9 +18,9 @@
     </div>
     {{-- Content --}}
     <div class="container py-5">
-        <div class="row">
+        <div class="row justify-content-center">
             {{-- Left Content --}}
-            <div class="col-6">
+            <div class="col-8">
                 {{-- Title --}}
                 <h3 class="text-uppercase title-color ">{{ $comic['title']}}</h3>
                 {{-- Price --}}
@@ -41,9 +41,10 @@
                     <p class="grey-text fs-14">{{ $comic['description']}}</p>
                 </div>
             </div>
-
-            <div class="col-6">
-                Test
+            {{-- Advertising --}}
+            <div class="col-4 adv pe-5">
+                <h6 class="text-uppercase fs-14 grey-text text-right">Advertisement</h6>
+                <img src="/images/adv.jpg" alt="">
             </div>
 
         </div>
